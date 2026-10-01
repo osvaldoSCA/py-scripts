@@ -10,7 +10,7 @@ cadastrarFórmulaGalileu.py - automatically registers the formulas for calculati
     The subjects taught lists in elementary and high school eduction need also to be edited :
 
     for elementary school eduction, edit:
-    disciplinas_fund2 = {  
+    disciplinas_fund2 = {
     _8A: ("TEOLOGIA",),
     _8B: ("TEOLOGIA",),
     _9A: ("TEOLOGIA","ROBÓTICA"),
@@ -18,8 +18,8 @@ cadastrarFórmulaGalileu.py - automatically registers the formulas for calculati
     }
 
     for high school eduction, edit:
-    disciplinas_em = {  
+    disciplinas_em = {
     _1A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
     _2A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
-    \_3A: ("ROBÓTICA","FÍSICA","FILOSOFIA")
+    _3A: ("ROBÓTICA","FÍSICA","FILOSOFIA")
     }
