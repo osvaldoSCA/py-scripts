@@ -15,7 +15,7 @@ The subjects taught lists in elementary and high school eduction need also to be
 
 for elementary school eduction, edit:
 disciplinas_fund2 = {  
- \_8A: ("TEOLOGIA",),
+\_8A: ("TEOLOGIA",),
 \_8B: ("TEOLOGIA",),
 \_9A: ("TEOLOGIA","ROBÓTICA"),
 \_9B: ("TEOLOGIA","ROBÓTICA")
@@ -23,7 +23,7 @@ disciplinas_fund2 = {
 
 for high school eduction, edit:
 disciplinas_em = {  
- \_1A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
+\_1A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
 \_2A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
 \_3A: ("ROBÓTICA","FÍSICA","FILOSOFIA")
 }
