@@ -4,39 +4,49 @@ from selenium.webdriver.support.ui import Select
 
 import time
 
-ATIVIDADE = "MEDIA"
-
+# variables to be edited every school year or period (Bimestre)
 PERIODO = "-02/02/2026 a 18/12/2026"
+BIMESTRE = "3"
 
+# constants
+ATIVIDADE = "MEDIA"
 FUNDII = "-- ENSINO FUNDAMENTAL II"
 MEDIO = "-- ENSINO MÉDIO"
 
+_6A = "6\u00baA-6\u00ba ANO"+PERIODO
+_6B = "6\u00baB-6\u00ba ANO"+PERIODO
+_7A = "7\u00baA-7\u00ba ANO"+PERIODO
+_7B = "7\u00baB-7\u00ba ANO"+PERIODO
 _8A = "8\u00baA-8\u00ba ANO"+PERIODO
 _8B = "8\u00baB-8\u00ba ANO"+PERIODO
 _9A = "9\u00baA-9\u00ba ANO"+PERIODO
 _9B = "9\u00baB-9\u00ba ANO"+PERIODO
 _1A = "1\u00aaA-1\u00aa SÉRIE"+PERIODO
+_1B = "1\u00aaB-1\u00aa SÉRIE"+PERIODO
 _2A = "2\u00aaA-2\u00aa SÉRIE"+PERIODO
+_2B = "2\u00aaB-2\u00aa SÉRIE"+PERIODO
 _3A = "3\u00aaA-3\u00aa SÉRIE"+PERIODO
+_3B = "3\u00aaB-3\u00aa SÉRIE"+PERIODO
 
-# dicionário de disciplinas por turma
+# subjects dictionary by class in elementary school education
 disciplinas_fund2 = {
     _8A: ("TEOLOGIA",),
     _8B: ("TEOLOGIA",),
     _9A: ("TEOLOGIA","ROBÓTICA"),
     _9B: ("TEOLOGIA","ROBÓTICA")
     }
+# subjects dictionary by class in high school education
 disciplinas_em = {
     _1A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
     _2A: ("ROBÓTICA","FÍSICA","FILOSOFIA"),
     _3A: ("ROBÓTICA","FÍSICA","FILOSOFIA")
 }
+
 disciplinas = {
     FUNDII: disciplinas_fund2,
     MEDIO: disciplinas_em
 }
 
-BIMESTRE = "3"
 BIMESTRE_KEY = BIMESTRE+"\u00ba Bimestre"
 
 driver = webdriver.Chrome()
