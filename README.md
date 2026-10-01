@@ -2,6 +2,8 @@ Scripts for tasks automation
 
 cadastrarFórmulaGalileu.py - automatically registers the formulas for calculating averages in the Galileu application
 
+Já eu não quero erro com ninguém.
+
 Variables to be edited in the script before running it:
 
 PERIODO = "-02/02/2026 a 18/12/2026"           - You must indicate the school year as it appears in the Galileo app.
